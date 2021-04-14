@@ -8,17 +8,17 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UPAPayPSDK'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '银联apple pay SDK'
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/yaofen/UPAPayPSDK'
+  s.homepage         = 'https://github.com/yaofen/UPAPayPlugin'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yaofen' => '2363253102@qq.com' }
-  s.source           = { :git => 'https://github.com/yaofen/UPAPayPSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yaofen/UPAPayPlugin.git', :tag => s.version.to_s }
 
   s.requires_arc = true
   s.ios.deployment_target = '10.0'

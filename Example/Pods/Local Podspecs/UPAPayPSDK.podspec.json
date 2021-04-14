@@ -1,9 +1,9 @@
 {
   "name": "UPAPayPSDK",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "银联apple pay SDK",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/yaofen/UPAPayPSDK",
+  "homepage": "https://github.com/yaofen/UPAPayPlugin",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "yaofen": "2363253102@qq.com"
   },
   "source": {
-    "git": "https://github.com/yaofen/UPAPayPSDK.git",
-    "tag": "0.0.1"
+    "git": "https://github.com/yaofen/UPAPayPlugin.git",
+    "tag": "0.0.2"
   },
   "requires_arc": true,
   "platforms": {

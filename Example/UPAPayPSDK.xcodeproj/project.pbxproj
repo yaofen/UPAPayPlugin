@@ -37,13 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		097BE6FA74EB12A6E4A70A0A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		0A6B7D7CCA2F8107170620AD /* UPAPayPSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UPAPayPSDK.podspec; path = ../UPAPayPSDK.podspec; sourceTree = "<group>"; };
+		097BE6FA74EB12A6E4A70A0A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0A6B7D7CCA2F8107170620AD /* UPAPayPSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UPAPayPSDK.podspec; path = ../UPAPayPSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		186BE920DED617B7EA78BF37 /* Pods-UPAPayPSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UPAPayPSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UPAPayPSDK_Tests/Pods-UPAPayPSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		21C7B1CB11EB7E398D45A0C8 /* Pods-UPAPayPSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UPAPayPSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-UPAPayPSDK_Example/Pods-UPAPayPSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		487C0E32DF988EC6E4CB1231 /* Pods-UPAPayPSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UPAPayPSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-UPAPayPSDK_Example/Pods-UPAPayPSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		55F11A8671E4C30D2FCB588E /* Pods_UPAPayPSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UPAPayPSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C391B442C996584B4259B23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5C391B442C996584B4259B23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* UPAPayPSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UPAPayPSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -193,7 +193,6 @@
 				186BE920DED617B7EA78BF37 /* Pods-UPAPayPSDK_Tests.debug.xcconfig */,
 				707EDE61095BB8B8F124A07A /* Pods-UPAPayPSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -257,6 +256,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
