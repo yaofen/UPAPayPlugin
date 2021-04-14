@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6341754610AFFFDBC5CD2F966C2FFE7A /* UPAPayPSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9FEFDB8FF50C7D4E04504812BE0AFC6C /* Build configuration list for PBXAggregateTarget "UPAPayPSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = UPAPayPSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		040B7A2DD928662B4B7EFCB6CACDB258 /* Pods-UPAPayPSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B31F2C34F15AA3D427C4694D82656993 /* Pods-UPAPayPSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2396EEE7C409D0450A5793E9364E8C29 /* Pods-UPAPayPSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7174D80CEF03BBAD324B68B7D7CC4B87 /* Pods-UPAPayPSDK_Example-dummy.m */; };
+		4C75CBA5B8EB926243DCAF911E2DF678 /* Pods-UPAPayPSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE105473BA6C4F8415E814E88AD33836 /* Pods-UPAPayPSDK_Tests-dummy.m */; };
+		823886EA02BFB11AECA96CF77520B217 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A8F710E98719DDA891A0654772EF6505 /* Pods-UPAPayPSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 903CF652963461EE9DFF479AEB03222B /* Pods-UPAPayPSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C27D5829DA3CDD24C0CBCA3763ACEF1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EE67159EDC25E00E2AD74B1AA4DF39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6341754610AFFFDBC5CD2F966C2FFE7A;
+			remoteInfo = UPAPayPSDK;
+		};
+		6DF6E51D52AFED5F51C1DEEDE969ECFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07BC9FD303722CF86F813C514CF22C88;
+			remoteInfo = "Pods-UPAPayPSDK_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AB5B9951B1DE8B3E7C9D6E03526C773 /* Pods-UPAPayPSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UPAPayPSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2537B33720ADCA4D61D16F21FB052A09 /* Pods-UPAPayPSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UPAPayPSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		28E234693E007755C33F63C83C42D247 /* Pods-UPAPayPSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UPAPayPSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		45F402F401CA88D245E57A887F9785CF /* UPAPayPSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UPAPayPSDK.release.xcconfig; sourceTree = "<group>"; };
+		50AD6AB2B6BB1CFF3B4F96563B9DD3F6 /* Pods-UPAPayPSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UPAPayPSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		593826D43B6464DD2C6C3718BF23438D /* libUPAPayPlugin.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libUPAPayPlugin.a; path = UPAPayPSDK/Classes/lib/libUPAPayPlugin.a; sourceTree = "<group>"; };
+		6210A7C7389EE53B0D52FDB0343AF63C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		66A6508EF5F6A8A70B2D0377D8325F77 /* UPAPayPluginDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPAPayPluginDelegate.h; path = UPAPayPSDK/Classes/Headers/UPAPayPluginDelegate.h; sourceTree = "<group>"; };
+		7174D80CEF03BBAD324B68B7D7CC4B87 /* Pods-UPAPayPSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UPAPayPSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7AAE4713992098FB990D0B2611C943BF /* UPAPayPSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UPAPayPSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		89BA9569CE063DDA1FC48B2CC7F945FB /* Pods_UPAPayPSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UPAPayPSDK_Tests.framework; path = "Pods-UPAPayPSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		903CF652963461EE9DFF479AEB03222B /* Pods-UPAPayPSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UPAPayPSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		98B912BE949BA4F91A10F65CFB0356C0 /* Pods-UPAPayPSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UPAPayPSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AFAC3D5A2FEC16044B04B33FF7A179CC /* UPAPayPSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UPAPayPSDK.debug.xcconfig; sourceTree = "<group>"; };
+		B31F2C34F15AA3D427C4694D82656993 /* Pods-UPAPayPSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UPAPayPSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B796ED2C41FFB52A5F53A48D22123588 /* Pods-UPAPayPSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UPAPayPSDK_Example.modulemap"; sourceTree = "<group>"; };
+		BB8BD141A935B5F8436FDCEB991DD401 /* Pods_UPAPayPSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UPAPayPSDK_Example.framework; path = "Pods-UPAPayPSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE105473BA6C4F8415E814E88AD33836 /* Pods-UPAPayPSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UPAPayPSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		C11EC9F3DEF7E10F4EB72F7EBF92F29C /* Pods-UPAPayPSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UPAPayPSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		CA72371CBD8BBD1D2E04A804A1F17C40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D983DFB641893A849B770225FD1E4384 /* Pods-UPAPayPSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UPAPayPSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8CDABE291E649FC6732FF290216CFFF /* Pods-UPAPayPSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UPAPayPSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F26D049353ED8738A3875F96DA8F08FC /* Pods-UPAPayPSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UPAPayPSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F50C02E108E8CFB4234DA56B4B2A24E1 /* Pods-UPAPayPSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UPAPayPSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F693DC4AFC05CA99A3DFA7F67CF49980 /* UPAPayPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPAPayPlugin.h; path = UPAPayPSDK/Classes/Headers/UPAPayPlugin.h; sourceTree = "<group>"; };
+		FB17C17742C37B56CAF0913EFD685C35 /* Pods-UPAPayPSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UPAPayPSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A83704E7431A145F2B0AF20BD465DA69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27D5829DA3CDD24C0CBCA3763ACEF1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86F1E8FA3F5DA2C60A66E61DE671AA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823886EA02BFB11AECA96CF77520B217 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0899EEAC79B28F5953F395A5D08A659F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				593826D43B6464DD2C6C3718BF23438D /* libUPAPayPlugin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18DA9AC0B40AD73EBA4F01D8B506526F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFAC3D5A2FEC16044B04B33FF7A179CC /* UPAPayPSDK.debug.xcconfig */,
+				45F402F401CA88D245E57A887F9785CF /* UPAPayPSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UPAPayPSDK";
+			sourceTree = "<group>";
+		};
+		427EB0BBAC5069A593A9717719441A4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB8BD141A935B5F8436FDCEB991DD401 /* Pods_UPAPayPSDK_Example.framework */,
+				89BA9569CE063DDA1FC48B2CC7F945FB /* Pods_UPAPayPSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B0EB8665020F3E96FBFD6F481BDD7B2 /* UPAPayPSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F693DC4AFC05CA99A3DFA7F67CF49980 /* UPAPayPlugin.h */,
+				66A6508EF5F6A8A70B2D0377D8325F77 /* UPAPayPluginDelegate.h */,
+				0899EEAC79B28F5953F395A5D08A659F /* Frameworks */,
+				653F864ABA9C9BC93861844B2EE122DA /* Pod */,
+				18DA9AC0B40AD73EBA4F01D8B506526F /* Support Files */,
+			);
+			name = UPAPayPSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		653F864ABA9C9BC93861844B2EE122DA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6210A7C7389EE53B0D52FDB0343AF63C /* LICENSE */,
+				CA72371CBD8BBD1D2E04A804A1F17C40 /* README.md */,
+				7AAE4713992098FB990D0B2611C943BF /* UPAPayPSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9DB66201FF470BAA2639C56A5B4070EB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B0EB8665020F3E96FBFD6F481BDD7B2 /* UPAPayPSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A8BC72834B1E30E9E3A159CB1F024277 /* Pods-UPAPayPSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B796ED2C41FFB52A5F53A48D22123588 /* Pods-UPAPayPSDK_Example.modulemap */,
+				D983DFB641893A849B770225FD1E4384 /* Pods-UPAPayPSDK_Example-acknowledgements.markdown */,
+				50AD6AB2B6BB1CFF3B4F96563B9DD3F6 /* Pods-UPAPayPSDK_Example-acknowledgements.plist */,
+				7174D80CEF03BBAD324B68B7D7CC4B87 /* Pods-UPAPayPSDK_Example-dummy.m */,
+				C11EC9F3DEF7E10F4EB72F7EBF92F29C /* Pods-UPAPayPSDK_Example-Info.plist */,
+				903CF652963461EE9DFF479AEB03222B /* Pods-UPAPayPSDK_Example-umbrella.h */,
+				FB17C17742C37B56CAF0913EFD685C35 /* Pods-UPAPayPSDK_Example.debug.xcconfig */,
+				E8CDABE291E649FC6732FF290216CFFF /* Pods-UPAPayPSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-UPAPayPSDK_Example";
+			path = "Target Support Files/Pods-UPAPayPSDK_Example";
+			sourceTree = "<group>";
+		};
+		C0E80CD600A8717E9297A142F2826B1E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8BC72834B1E30E9E3A159CB1F024277 /* Pods-UPAPayPSDK_Example */,
+				E7A2DA4CE4427053262EAE7927195064 /* Pods-UPAPayPSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9DB66201FF470BAA2639C56A5B4070EB /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				427EB0BBAC5069A593A9717719441A4E /* Products */,
+				C0E80CD600A8717E9297A142F2826B1E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7A2DA4CE4427053262EAE7927195064 /* Pods-UPAPayPSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				28E234693E007755C33F63C83C42D247 /* Pods-UPAPayPSDK_Tests.modulemap */,
+				F26D049353ED8738A3875F96DA8F08FC /* Pods-UPAPayPSDK_Tests-acknowledgements.markdown */,
+				2537B33720ADCA4D61D16F21FB052A09 /* Pods-UPAPayPSDK_Tests-acknowledgements.plist */,
+				BE105473BA6C4F8415E814E88AD33836 /* Pods-UPAPayPSDK_Tests-dummy.m */,
+				98B912BE949BA4F91A10F65CFB0356C0 /* Pods-UPAPayPSDK_Tests-Info.plist */,
+				B31F2C34F15AA3D427C4694D82656993 /* Pods-UPAPayPSDK_Tests-umbrella.h */,
+				F50C02E108E8CFB4234DA56B4B2A24E1 /* Pods-UPAPayPSDK_Tests.debug.xcconfig */,
+				0AB5B9951B1DE8B3E7C9D6E03526C773 /* Pods-UPAPayPSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-UPAPayPSDK_Tests";
+			path = "Target Support Files/Pods-UPAPayPSDK_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06DFAD6214FD2A1AD62FC6BBB45A87B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040B7A2DD928662B4B7EFCB6CACDB258 /* Pods-UPAPayPSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF19A01045511CBB7E5CB3AE45A259E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F710E98719DDA891A0654772EF6505 /* Pods-UPAPayPSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07BC9FD303722CF86F813C514CF22C88 /* Pods-UPAPayPSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42BFA6EDD787E21583343B3DD1CA8681 /* Build configuration list for PBXNativeTarget "Pods-UPAPayPSDK_Example" */;
+			buildPhases = (
+				7AF19A01045511CBB7E5CB3AE45A259E /* Headers */,
+				1789D432EF4C429321F9861A03C2D396 /* Sources */,
+				A83704E7431A145F2B0AF20BD465DA69 /* Frameworks */,
+				12BAC29AF286D9D3A5C51D30B74E62F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C4EF07798871AC8C6995E2044968F59 /* PBXTargetDependency */,
+			);
+			name = "Pods-UPAPayPSDK_Example";
+			productName = "Pods-UPAPayPSDK_Example";
+			productReference = BB8BD141A935B5F8436FDCEB991DD401 /* Pods_UPAPayPSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2A87960A13413CD6E0C33E8A3DAD6FB /* Pods-UPAPayPSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F8B52864FBE4756118C8C7CF72B9472 /* Build configuration list for PBXNativeTarget "Pods-UPAPayPSDK_Tests" */;
+			buildPhases = (
+				06DFAD6214FD2A1AD62FC6BBB45A87B9 /* Headers */,
+				2E4797AFDD9ED5BE4301818DC4AA560B /* Sources */,
+				D86F1E8FA3F5DA2C60A66E61DE671AA5 /* Frameworks */,
+				54A74E1B0634B101298C39CC5785BFF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B00E01635C71499771477335D3942132 /* PBXTargetDependency */,
+			);
+			name = "Pods-UPAPayPSDK_Tests";
+			productName = "Pods-UPAPayPSDK_Tests";
+			productReference = 89BA9569CE063DDA1FC48B2CC7F945FB /* Pods_UPAPayPSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 427EB0BBAC5069A593A9717719441A4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07BC9FD303722CF86F813C514CF22C88 /* Pods-UPAPayPSDK_Example */,
+				C2A87960A13413CD6E0C33E8A3DAD6FB /* Pods-UPAPayPSDK_Tests */,
+				6341754610AFFFDBC5CD2F966C2FFE7A /* UPAPayPSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12BAC29AF286D9D3A5C51D30B74E62F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A74E1B0634B101298C39CC5785BFF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1789D432EF4C429321F9861A03C2D396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2396EEE7C409D0450A5793E9364E8C29 /* Pods-UPAPayPSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4797AFDD9ED5BE4301818DC4AA560B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C75CBA5B8EB926243DCAF911E2DF678 /* Pods-UPAPayPSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C4EF07798871AC8C6995E2044968F59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UPAPayPSDK;
+			target = 6341754610AFFFDBC5CD2F966C2FFE7A /* UPAPayPSDK */;
+			targetProxy = 2EE67159EDC25E00E2AD74B1AA4DF39A /* PBXContainerItemProxy */;
+		};
+		B00E01635C71499771477335D3942132 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UPAPayPSDK_Example";
+			target = 07BC9FD303722CF86F813C514CF22C88 /* Pods-UPAPayPSDK_Example */;
+			targetProxy = 6DF6E51D52AFED5F51C1DEEDE969ECFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02FB3430BB499CDFEF1BCF0E25C33527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F50C02E108E8CFB4234DA56B4B2A24E1 /* Pods-UPAPayPSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UPAPayPSDK_Tests/Pods-UPAPayPSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UPAPayPSDK_Tests/Pods-UPAPayPSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		184FFEB6F4E417B9B8136BEDB4323D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB17C17742C37B56CAF0913EFD685C35 /* Pods-UPAPayPSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UPAPayPSDK_Example/Pods-UPAPayPSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UPAPayPSDK_Example/Pods-UPAPayPSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		43AD67DC774E86042C148DFFFF352E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AB5B9951B1DE8B3E7C9D6E03526C773 /* Pods-UPAPayPSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UPAPayPSDK_Tests/Pods-UPAPayPSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UPAPayPSDK_Tests/Pods-UPAPayPSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8FEED986349CF1C4501A62214F3C8A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8CDABE291E649FC6732FF290216CFFF /* Pods-UPAPayPSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UPAPayPSDK_Example/Pods-UPAPayPSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UPAPayPSDK_Example/Pods-UPAPayPSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD7D12BAFC7B2C8FCDFFA3DB1BA492D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFAC3D5A2FEC16044B04B33FF7A179CC /* UPAPayPSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FDD3A8153A8CD99EE8DCEFB243BC7261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F402F401CA88D245E57A887F9785CF /* UPAPayPSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F8B52864FBE4756118C8C7CF72B9472 /* Build configuration list for PBXNativeTarget "Pods-UPAPayPSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FB3430BB499CDFEF1BCF0E25C33527 /* Debug */,
+				43AD67DC774E86042C148DFFFF352E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42BFA6EDD787E21583343B3DD1CA8681 /* Build configuration list for PBXNativeTarget "Pods-UPAPayPSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184FFEB6F4E417B9B8136BEDB4323D22 /* Debug */,
+				8FEED986349CF1C4501A62214F3C8A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FEFDB8FF50C7D4E04504812BE0AFC6C /* Build configuration list for PBXAggregateTarget "UPAPayPSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7D12BAFC7B2C8FCDFFA3DB1BA492D0 /* Debug */,
+				FDD3A8153A8CD99EE8DCEFB243BC7261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

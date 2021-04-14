@@ -1,0 +1,6 @@
+framework module UPAPayPSDK {
+  umbrella header "UPAPayPSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
